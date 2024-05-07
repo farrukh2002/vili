@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_vili.mk
+    $(LOCAL_DIR)/twrp_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_vili-user \
-    omni_vili-userdebug \
-    omni_vili-eng
+    twrp_vili-user \
+    twrp_vili-userdebug \
+    twrp_vili-eng

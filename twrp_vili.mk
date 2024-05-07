@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 PRODUCT_DEVICE := vili
-PRODUCT_NAME := omni_vili
+PRODUCT_NAME := twrp_vili
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 2107113SC
 PRODUCT_MANUFACTURER := xiaomi

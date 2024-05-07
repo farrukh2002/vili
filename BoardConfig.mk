@@ -13,6 +13,8 @@ ALLOW_MISSING_DEPENDENCIES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
     odm \
     system \
     product \
@@ -35,12 +37,16 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := vili
 TARGET_NO_BOOTLOADER := true
+TARGET_USES_UEFI := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
